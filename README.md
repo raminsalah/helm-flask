@@ -6,6 +6,12 @@
 2) Running the Container
  - docker run -p 9001:9001 python-rest-api
 
+3) Tag the image based on the dockerhub repo 
+ - docker tag python-rest-api raminsalah/helm-flask:1.0
+
+4) docker push
+![alt text](image.png)
+
 -------------------------------------------------
 ## Without Docker
 
