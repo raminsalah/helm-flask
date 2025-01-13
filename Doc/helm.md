@@ -42,5 +42,15 @@
 ![alt text](image-9.png)
 ![alt text](image-10.png)
 
+## we can see that inside template we can invoke the values.
+![alt text](image-13.png)
+
 ## If minikube could not pull the image we can pull it locally and then load it into minikube
 ![alt text](image-12.png)
+
+
+## there are also many pre-built helm charts in helm repo whoch we can use
+![alt text](image-14.png)
+![alt text](image-15.png)
+
+## 1:49
