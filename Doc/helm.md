@@ -37,4 +37,10 @@
 ![alt text](image-8.png)
 
 
-## 1:10
+## After Pushing the image of our containerized App into duckerhub we can create a helm chart and modify the necessary yamls like
+![alt text](image-11.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+
+## If minikube could not pull the image we can pull it locally and then load it into minikube
+![alt text](image-12.png)
