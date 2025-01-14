@@ -67,3 +67,6 @@
 ## helm hooks
 ![alt text](image-20.png)
 ![alt text](image-21.png)
+
+## To share our chart with others we use 'helm package'
+$ helm package helm-flask  ---> this creates a .tgz file
