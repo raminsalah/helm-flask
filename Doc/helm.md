@@ -49,8 +49,21 @@
 ![alt text](image-12.png)
 
 
-## there are also many pre-built helm charts in helm repo whoch we can use
+## there are also many pre-built helm charts in different helm repos which we can use
+- one of the most complete repos is bitnami with "https://charts.bitnami.com/bitnami" 
+- we can find available repos from helm hub "https://artifacthub.io/"
+
+![alt text](image-17.png)
 ![alt text](image-14.png)
 ![alt text](image-15.png)
+![alt text](image-16.png)
 
-## 1:49
+## Add a repo into my local helm and install a chart from that repo
+![alt text](image-18.png)
+
+## display a helm chart documentation
+![alt text](image-19.png)
+
+## helm hooks
+![alt text](image-20.png)
+
