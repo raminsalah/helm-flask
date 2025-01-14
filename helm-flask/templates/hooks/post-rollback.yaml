@@ -1,0 +1,25 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: post-rollback-cleanup
+  labels:
+    app.kubernetes.io/name: my-app
+    app.kubernetes.io/instance: my-app-instance
+    app.kubernetes.io/version: "1.0.0"
+    app.kubernetes.io/component: cleanup
+  annotations:
+    "helm.sh/hook": post-rollback
+    "helm.sh/hook-weight": "0" # Controls the execution order if multiple hooks exist.
+    "helm.sh/hook-delete-policy": before-hook-creation
+spec:
+  template:
+    metadata:
+      name: post-rollback-cleanup
+      labels:
+        app.kubernetes.io/name: my-app
+    spec:
+      containers:
+        - name: cleanup
+          image: busybox:1.35
+          command: ["sh", "-c", "echo 'Performing post-rollback cleanup'; sleep 5"]
+      restartPolicy: OnFailure
