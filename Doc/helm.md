@@ -70,3 +70,6 @@
 
 ## To share our chart with others we use 'helm package'
 $ helm package helm-flask  ---> this creates a .tgz file
+
+## It is possible to pull the whole helm chart from its repo into our local machine
+![alt text](image-22.png) 
