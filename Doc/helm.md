@@ -73,3 +73,9 @@ $ helm package helm-flask  ---> this creates a .tgz file
 
 ## It is possible to pull the whole helm chart from its repo into our local machine
 ![alt text](image-22.png) 
+
+## Using "helm inteliscence extension" to populate the variables in helpers.tpl
+- we just need to type "." and then tab or type "include" and then tab and it shows all the available values in chart to chose among
+![alt text](image-23.png)
+
+## 33th min
