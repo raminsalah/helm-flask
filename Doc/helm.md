@@ -78,4 +78,5 @@ $ helm package helm-flask  ---> this creates a .tgz file
 - we just need to type "." and then tab or type "include" and then tab and it shows all the available values in chart to chose among
 ![alt text](image-23.png)
 
-## 33th min
+## copy a snippet of code from Values with the same indentation we use " - toYaml func"
+![alt text](image-24.png)
